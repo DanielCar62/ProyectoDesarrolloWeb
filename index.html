@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Blog de musica</title>
+</head>
+<body>
+    
+    <header class="cabecera">
+        <div>
+            <h1>Blog de musica</h1>
+        </div>
+    </header>
+    
+    <div class="container-fluid sticky-top navegacion">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav justify-content-center col-lg-12">
+                            <li class="nav-item musica">
+                                <a class="navbar-brand btn btn-light btn-sm" href="./index.html">Musica</a>
+                            </li>
+                            <li class="nav-item conciertos">
+                                <a class="navbar-brand btn btn-light btn-sm" href="./conciertos.html">Conciertos</a>
+                            </li>
+                            <li class="nav-item resenia">
+                                <a class="navbar-brand btn btn-light btn-sm" href="./reseñas_discos.html">Reseña discos</a>
+                            </li>
+                            
+                            <form class="d-flex buscador" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-success btn-light btn-sm" type="submit">Buscar</button>
+                            </form>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <main class="principal">
+        <div class="container text-center">
+            <div class="row justify-content-center gx-5">
+                <div class="col-lg-4 col-xs-12 order-lg-2">
+                    <section class="seccion-principal">
+                        <div class="border-bottom">
+                            <img src="./img/noticia2.jpg">
+                            <h2>PRINCIPAL</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        </div>
+                        <div class="principal-com">
+                            <img src="./img/noticia3.jpg">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus,iusto!</p>
+                            <img src="./img/noticia4.jpg">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="col-lg-4 col-xs-12 order-lg-1">
+                    <section class="seccion-noticias">
+                        <div class="border-bottom">
+                            <h3 >Ultimas Noticias</h3>
+                            <img src="./img/noticia5.jpg">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        </div>
+                        <div class="noticias-com">
+                            <img src="./img/noticia6.jpg">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                            <img src="./img/noticia7.jpg">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="col-lg-4 col-xs-12 ml-5 order-lg-3">
+                    <section class="seccion-popular">
+                        <h3>Popular</h3>
+                        <img src="./img/noticia8.jpg">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        <img src="./img/noticia9.jpg">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                        <img src="./img/noticia.jpg">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, iusto!</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="contenedor">
+        <div class="container text-center py-5">
+            <h2>Conoce nueva musica</h2>
+            <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1DX70TzPK5buVf?utm_source=generator"
+                width="70%"
+                height="400"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="fondo_footer">
+            <div class="container text-center">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-4 col-xs-12 px-4 grid-links text-center">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="">Acerca de nosotros</a></li>
+                            <li><a href="">Servicios</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-4 col-xs-12 px-4 grid-suscribete">
+                        <h4>Suscribete</h4>
+                        <form action="">
+                            <div class="correo">
+                                <input class="form-control" type="text" value="Correo Electronico" aria-label="readonly input example" readonly>
+                            </div>
+                            <div class="boton-enviar">
+                                <input class="btn btn-light btn-sm" type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="col-lg-4 col-xs-12 px-4 grid-contacto">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy text-center">
+            <h6>Copyright © 2023 Blog de Musica</h6>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
