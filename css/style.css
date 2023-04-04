@@ -1,172 +1,151 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-header{
-    width: 100%;
-    height: 300px;
-    background-image: url(../img/portada.jpg);
-    background-position: 0;
-    background-size: cover;
-    padding: 50px;
-    color: aliceblue;
+header {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/portada.jpg);
+  background-position: 0;
+  background-size: cover;
+  padding: 50px;
+  color: aliceblue;
 }
 
-img{
-    padding: 20px;
-    border-radius: 15%; 
+img {
+  padding: 20px;
+  border-radius: 15%;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.navegacion{
-    background-color: #ff3823;
-    opacity: 4;
+.navegacion {
+  background-color: #ff3823;
+  opacity: 4;
+}
+.navegacion a {
+  margin-top: 6px;
 }
 
-.navegacion a{
-    margin-top: 6px;
+.buscador {
+  margin-top: 10px;
 }
 
-.buscador{
-    margin-top: 10px;
+.principal {
+  margin-top: 50px;
 }
 
-.principal{
-    margin-top: 50px;
+.seccion-principal img {
+  width: 350px;
+  height: 300px;
 }
 
-.seccion-principal img{
-	width: 350px;
-	height: 300px;
+.principal-com img {
+  width: 186px;
+  height: 134px;
 }
 
-.principal-com img{
-    width: 186px;
-    height: 134px;
+.seccion-noticias h3 {
+  padding-top: 100px;
+}
+.seccion-noticias img {
+  width: 216px;
+  height: 216px;
 }
 
-.seccion-noticias h3{
-    padding-top: 100px;
+.noticias-com img {
+  width: 186px;
+  height: 134px;
 }
 
-.seccion-noticias img{
-	width: 216px;
-	height: 216px;
+.seccion-popular h3 {
+  padding-top: 100px;
+}
+.seccion-popular img {
+  width: 120px;
+  height: 120px;
 }
 
-.noticias-com img{
-    width: 186px;
-    height: 134px;
+.conciertos-discos {
+  width: 100%;
+  height: 451px;
+  margin-top: 30px;
+  background-image: url(../img/noticia8.jpg);
+  background-position: 0;
+  background-size: cover;
+  border-radius: 15px;
 }
 
-.seccion-popular h3{
-    padding-top: 100px;
+.seccion-conciertosdisc img {
+  width: 300px;
+  height: 157px;
 }
 
-.seccion-popular img{
-    width: 120px;
-	height: 120px;
+.popular-conciertosdisc img {
+  width: 120px;
+  height: 120px;
 }
 
-.conciertos-discos{
-    width: 100%;
-    height: 451px;
-    margin-top: 30px;
-    background-image: url(../img/noticia8.jpg);
-    background-position: 0;
-    background-size: cover;
-    border-radius: 15px;
+.contenedor {
+  padding: 20px;
 }
 
-.seccion-conciertosdisc img{
-	width: 300px;
-	height: 157px;
+footer {
+  margin-top: 30px;
+}
+footer a {
+  color: black;
 }
 
-.popular-conciertosdisc img{
-    width: 120px;
-	height: 120px;
+.fondo_footer {
+  background-color: #444444;
+  padding: 20px;
+}
+.fondo_footer h4 {
+  color: white;
 }
 
-/*section h3 {
-	width: 221px;
-	height: 31px;
-	padding: 8px 8px 8px 8px;
-	background: #ff3823;
-	border-color: #000000;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 8px 8px 8px 8px;
-    font-weight: 400;
-	font-size: 24px;
-	text-align: center;
-    width: 221px;
-	height: 51px;
-    color: #ffffff;
-    
-}*/
-
-.contenedor{
-   padding: 20px;
+.copy {
+  background-color: black;
+  color: white;
+  padding: 15px;
 }
 
-footer{
-    margin-top: 30px;
+.correo {
+  width: auto;
+  height: auto;
 }
 
-footer a{
-    color: black;
+.boton-enviar {
+  padding: 10px;
 }
 
-.fondo_footer{
-    background-color: #444444;
-    padding: 20px;
+.grid-suscribete {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px;
+  text-align: center;
 }
 
-.fondo_footer h4{
-    color: white;
+.grid-links {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px;
+  text-align: center;
+  padding: 30px;
 }
 
-.copy{
-    background-color: black;
-    color: white;
-    padding: 15px;
+.grid-contacto {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px;
+  text-align: center;
+  padding: 30px;
 }
 
-.correo{
-    width: auto;
-    height: auto;
-}
-
-.boton-enviar{
-    padding: 10px;
-}
-
-.grid-suscribete{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 60px;
-    text-align: center;   
-}
-
-.grid-links{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 60px;
-    text-align: center;
-    padding: 30px;   
-}
-
-.grid-contacto{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 60px;
-    text-align: center;
-    padding: 30px;    
-}
+/*# sourceMappingURL=style.css.map */
