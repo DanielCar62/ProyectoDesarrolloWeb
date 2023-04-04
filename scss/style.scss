@@ -48,9 +48,11 @@ a{
     }
 }
 
-.principal-com img{
-    width: 186px;
-    height: 134px;
+.principal-com{
+    img{
+        width: 186px;
+        height: 134px;
+    }
 }
 
 .seccion-noticias{
@@ -113,6 +115,10 @@ a{
 footer{
     margin-top: 30px;
     
+    li{
+        text-align: center;
+    }
+
     a{
         color:black;
     }
@@ -164,3 +170,5 @@ footer{
     text-align: center;
     padding: 30px;    
 }
+
+@import "queries";
