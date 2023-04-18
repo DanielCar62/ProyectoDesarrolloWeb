@@ -7,12 +7,18 @@
 
 header{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-image: url(../img/portada.jpg);
     background-position: 0;
     background-size: cover;
-    padding: 50px;
-    color: aliceblue;
+
+    h1{
+        
+        color: aliceblue;
+        font-family: 'Lobster', cursive;
+        font-size: 125px;
+        text-align: center;
+       }
 }
 
 img{
@@ -25,16 +31,28 @@ a{
 }
 
 .navegacion{
-    background-color: #ff3823;
+    background-color: rgb(2, 31, 31);
     opacity: 4;
 
     a{
-        margin-top: 6px;
+        margin-top: 3px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(2, 31, 31);
+        color: white;
+        
+    &:hover{
+        background-color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        color: black;
+    }
     }
 }
 
 .buscador{
-    margin-top: 10px;
+    margin-top: 2px;
+    
 }
 
 .principal{
@@ -42,6 +60,11 @@ a{
 }
 
 .seccion-principal{
+    p{
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        padding-left: 100px;
+    }
     img{
         width: 350px;
 	    height: 300px;
@@ -56,6 +79,11 @@ a{
 }
 
 .seccion-noticias{
+    p{
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        padding-left: 100px;
+    }
     h3{
         padding-top: 100px;
     }
@@ -74,6 +102,11 @@ a{
 }
 
 .seccion-popular{
+    p{
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        padding-left: 100px;
+    }
     h3{
         padding-top: 100px;
     }
@@ -95,6 +128,11 @@ a{
 }
 
 .seccion-conciertosdisc{
+    p{
+        inline-size: 450px;
+        overflow-wrap: break-word;
+        padding-left: 170px;
+    }
     img{
 	    width: 300px;
 	    height: 157px;
@@ -102,6 +140,11 @@ a{
 }
 
 .popular-conciertosdisc{
+    p{
+        inline-size: 450px;
+        overflow-wrap: break-word;
+        padding-left: 170px;
+    }
     img{
         width: 120px;
 	    height: 120px;
@@ -172,3 +215,4 @@ footer{
 }
 
 @import "queries";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');

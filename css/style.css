@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +8,16 @@
 
 header {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-image: url(../img/portada.jpg);
   background-position: 0;
   background-size: cover;
-  padding: 50px;
+}
+header h1 {
   color: aliceblue;
+  font-family: "Lobster", cursive;
+  font-size: 125px;
+  text-align: center;
 }
 
 img {
@@ -25,21 +30,36 @@ a {
 }
 
 .navegacion {
-  background-color: #ff3823;
+  background-color: rgb(2, 31, 31);
   opacity: 4;
 }
 .navegacion a {
-  margin-top: 6px;
+  margin-top: 3px;
+  width: 350px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(2, 31, 31);
+  color: white;
+}
+.navegacion a:hover {
+  background-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
 }
 
 .buscador {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .principal {
   margin-top: 50px;
 }
 
+.seccion-principal p {
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  padding-left: 100px;
+}
 .seccion-principal img {
   width: 350px;
   height: 300px;
@@ -50,6 +70,11 @@ a {
   height: 134px;
 }
 
+.seccion-noticias p {
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  padding-left: 100px;
+}
 .seccion-noticias h3 {
   padding-top: 100px;
 }
@@ -63,6 +88,11 @@ a {
   height: 134px;
 }
 
+.seccion-popular p {
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  padding-left: 100px;
+}
 .seccion-popular h3 {
   padding-top: 100px;
 }
@@ -81,11 +111,21 @@ a {
   border-radius: 15px;
 }
 
+.seccion-conciertosdisc p {
+  inline-size: 450px;
+  overflow-wrap: break-word;
+  padding-left: 170px;
+}
 .seccion-conciertosdisc img {
   width: 300px;
   height: 157px;
 }
 
+.popular-conciertosdisc p {
+  inline-size: 450px;
+  overflow-wrap: break-word;
+  padding-left: 170px;
+}
 .popular-conciertosdisc img {
   width: 120px;
   height: 120px;
