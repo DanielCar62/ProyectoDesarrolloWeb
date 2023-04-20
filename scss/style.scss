@@ -24,8 +24,7 @@ header{
 }
 
 img{
-    padding: 20px;
-    border-radius: 15%; 
+    padding-top: 20px; 
 }
 
 a{
@@ -35,7 +34,12 @@ a{
 .navegacion{
     background-color: #182937;
     opacity: 4;
-
+    h2{
+        color: white;
+        font-family: 'Lobster', cursive;
+        padding-right: 140px;
+        margin-top: 10px;
+    }
     a{
         margin-top: 3px;
         width: 350px;
@@ -73,8 +77,11 @@ a{
 .seccion-principal{
   
     img{
-        width: 350px;
+        width: 590px;
 	    height: 300px;
+    &:hover{
+        opacity: .9;
+    }
     }
 }
 
@@ -83,45 +90,77 @@ a{
         text-align: left;
     }
     img{
-        width: 186px;
-        height: 134px;
+        width: 230px;
+        height: 138px;
+    &:hover{
+        opacity: .9;
+    }
     }
 }
 
 .seccion-noticias{
-
+    div{
+        padding-right: 5px;
+    }
     h3{
         padding-top: 100px;
     }
-    
     img{
-        width: 216px;
-        height: 216px;
+        width: 320px;
+        height: 192px;
+    &:hover{
+        opacity: .9;
+    }
     }
 }
 
 .noticias-com{
+
     p{
         text-align: left;
     }
     img{
-        width: 186px;
-        height: 134px; 
+        width: 100px;
+        height: 100px;
+    &:hover{
+        opacity: .9;
+    } 
     }
 }
 
 .seccion-popular{
+    div{
+        padding-left: 70px;
+    }
     p{
         text-align: left;
+        padding-left: 20px;
     }
 
     h3{
-        padding-top: 100px;
+        padding-top: 90px;
+        padding-left: 90px;
     }
 
     img{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
+        opacity: .7;
+    &:hover{
+        opacity: 20;
+    }
+    }
+    .popular{
+        display: inline-block;
+        text-align: center;
+        .numero{
+            color: white;
+            font-size: 40px;
+            position: absolute;
+            top: 53%;
+            left: 21%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
 
@@ -133,6 +172,9 @@ a{
     background-position: 0;
     background-size: cover;
     border-radius: 15px;
+    &:hover{
+        opacity: .9;
+    }
     h4{
         color: white;
         text-align: left;
@@ -154,22 +196,37 @@ a{
 }
 
 .seccion-conciertosdisc{
+    div{
+        padding-left: 50px;
+    }
     p{
         text-align: left;
     }
     img{
-	    width: 300px;
+	    width: 320px;
 	    height: 157px;
+    &:hover{
+        opacity: .9;
+    }
     }
 }
 
 .popular-conciertosdisc{
+    div{
+        padding-left: 150px;
+    }
+    h3{
+        padding-left: 150px;
+    }
     p{
         text-align: left;
     }
     img{
-        width: 120px;
-	    height: 120px;
+        width: 100px;
+	    height: 100px;
+    &:hover{
+        opacity: .9;
+    }
     }
 }
 
@@ -202,6 +259,7 @@ footer{
     
     h4{
         color: white;
+        padding-bottom: 10px;
     }
 }
 
@@ -225,15 +283,7 @@ footer{
     grid-template-columns: auto;
     grid-template-rows: 60px;
     text-align: center;  
-    align-items: center; 
-}
-
-.grid-links{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 60px;
-    text-align: center;
-    padding: 30px;  
+    align-items: center;
 }
 
 .grid-contacto{
@@ -241,11 +291,9 @@ footer{
     grid-template-columns: auto;
     grid-template-rows: 60px;
     text-align: center;
-    padding: 30px;
-    
-    
+    padding-top: 10px;
     a{
-        padding: 30px
+        padding: 10px
   
     }
 }
