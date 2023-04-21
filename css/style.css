@@ -33,6 +33,7 @@ a {
 .navegacion {
   background-color: #182937;
   opacity: 4;
+  font-family: "Oswald", sans-serif;
 }
 .navegacion h2 {
   color: white;
@@ -68,7 +69,21 @@ a {
 }
 
 .principal {
-  margin-top: 50px;
+  margin-top: 10px;
+}
+.principal p {
+  text-align: left;
+}
+.principal h2 {
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.fuente {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .seccion-principal img {
@@ -79,8 +94,10 @@ a {
   opacity: 0.9;
 }
 
-.principal-com p {
-  text-align: left;
+.principal-com {
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .principal-com img {
   width: 230px;
@@ -90,11 +107,25 @@ a {
   opacity: 0.9;
 }
 
+.seccion-noticias h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.seccion-noticias p {
+  text-align: left;
+}
 .seccion-noticias div {
   padding-right: 5px;
 }
 .seccion-noticias h3 {
-  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
 }
 .seccion-noticias img {
   width: 320px;
@@ -104,8 +135,10 @@ a {
   opacity: 0.9;
 }
 
-.noticias-com p {
-  text-align: left;
+.noticias-com {
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .noticias-com img {
   width: 100px;
@@ -121,10 +154,17 @@ a {
 .seccion-popular p {
   text-align: left;
   padding-left: 20px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .seccion-popular h3 {
-  padding-top: 90px;
-  padding-left: 90px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
 }
 .seccion-popular img {
   width: 100px;
@@ -160,12 +200,14 @@ a {
   opacity: 0.9;
 }
 .conciertos-discos h4 {
+  font-family: "Roboto", sans-serif;
   color: white;
   text-align: left;
   padding-left: 50px;
-  padding-top: 50px;
+  padding-top: 170px;
 }
 .conciertos-discos h2 {
+  font-family: "Oswald", sans-serif;
   color: white;
   text-align: left;
   padding-left: 50px;
@@ -173,9 +215,59 @@ a {
   inline-size: 500px;
 }
 .conciertos-discos p {
+  font-size: 0.9rem;
+  font-weight: 100;
   color: white;
   text-align: left;
   padding-left: 50px;
+}
+
+.conciertos-discos2 {
+  width: 100%;
+  height: 451px;
+  margin-top: 30px;
+  background-image: url(../img/noticia8.jpg);
+  background-position: 0;
+  background-size: cover;
+  border-radius: 15px;
+}
+.conciertos-discos2:hover {
+  opacity: 0.9;
+}
+.conciertos-discos2 h4 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 218px;
+}
+.conciertos-discos2 h2 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 40px;
+  inline-size: 500px;
+}
+.conciertos-discos2 p {
+  font-size: 0.9rem;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.fondo-condisc {
+  background: linear-gradient(to right, black 90%, transparent);
+  margin-right: 700px;
+  padding-bottom: 34px;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+.fondo-condisc h4 {
+  font-family: "Roboto", sans-serif;
+}
+.fondo-condisc p {
+  font-family: "Roboto", sans-serif;
 }
 
 .seccion-conciertosdisc div {
@@ -183,6 +275,9 @@ a {
 }
 .seccion-conciertosdisc p {
   text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 .seccion-conciertosdisc img {
   width: 320px;
@@ -196,10 +291,18 @@ a {
   padding-left: 150px;
 }
 .popular-conciertosdisc h3 {
-  padding-left: 150px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
 }
 .popular-conciertosdisc p {
   text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .popular-conciertosdisc img {
   width: 100px;
@@ -213,11 +316,17 @@ a {
   padding: 20px;
 }
 .contenedor h2 {
-  padding-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 footer li {
   text-align: center;
@@ -242,7 +351,7 @@ footer a:hover {
 .copy {
   background-color: black;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 .correo {
@@ -315,11 +424,6 @@ footer a:hover {
   }
 }
 @media (max-width: 991px) {
-  .principal {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 991px) {
   .principal-com img {
     width: 170px;
     height: 120px;
@@ -336,7 +440,7 @@ footer a:hover {
 }
 @media (max-width: 991px) {
   .seccion-noticias h3 {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -349,33 +453,68 @@ footer a:hover {
     padding-left: 25px;
   }
   .seccion-popular h3 {
-    padding-top: 50px;
-    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .seccion-popular .popular .numero {
+    left: 9%;
   }
 }
 @media (max-width: 500px) {
+  .seccion-popular .popular .numero {
+    left: 16%;
+  }
+}
+@media (max-width: 900px) {
   .conciertos-discos {
     background-position: center;
   }
   .conciertos-discos h4 {
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-top: 290px;
   }
   .conciertos-discos h2 {
     font-size: 25px;
-    inline-size: 220px;
-    padding-left: 15px;
+    inline-size: 400px;
+    padding-left: 10px;
   }
   .conciertos-discos p {
-    padding-left: 15px;
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .conciertos-discos2 {
+    background-position: center;
+  }
+  .conciertos-discos2 h4 {
+    padding-left: 25px;
+    padding-top: 320px;
+  }
+  .conciertos-discos2 h2 {
+    font-size: 25px;
+    inline-size: 400px;
+    padding-left: 10px;
+  }
+  .conciertos-discos2 p {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .fondo-condisc {
+    background: linear-gradient(transparent, black 90%);
+    margin-right: 0px;
+    padding-bottom: 29px;
+  }
+  .fondo-condisc h2 {
+    inline-size: 300px;
   }
 }
 @media (max-width: 800px) {
   .seccion-conciertosdisc div {
-    padding-left: 5px;
+    padding-left: 20px;
   }
   .seccion-conciertosdisc img {
-    width: 186px;
-    height: 134px;
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 800px) {
@@ -387,15 +526,17 @@ footer a:hover {
     padding-left: 40px;
   }
   .popular-conciertosdisc h3 {
-    padding-left: 40px;
+    margin-top: 25px;
   }
 }
 @media (max-width: 500px) {
   .popular-conciertosdisc div {
     padding-left: 25px;
   }
-  .popular-conciertosdisc h3 {
-    padding-left: 15px;
+}
+@media (max-width: 500px) {
+  .contenedor {
+    display: none;
   }
 }
 @media (max-width: 500px) {
