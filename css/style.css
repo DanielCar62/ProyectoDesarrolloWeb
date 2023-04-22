@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   margin: 0;
@@ -23,11 +24,23 @@ header h1 {
 }
 
 img {
+  object-fit: cover;
   padding-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 a {
   text-decoration: none;
+}
+
+.fuente-pequeña {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin: 0;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .navegacion {
@@ -84,8 +97,22 @@ a {
 .fuente {
   font-size: 1rem;
   font-weight: 300;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
+.seccion-principal p {
+  cursor: pointer;
+}
+.seccion-principal p:hover {
+  opacity: 0.7;
+}
+.seccion-principal h2 {
+  cursor: pointer;
+}
+.seccion-principal h2:hover {
+  opacity: 0.7;
+}
 .seccion-principal img {
   width: 590px;
   height: 300px;
@@ -111,6 +138,10 @@ a {
   font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
+  cursor: pointer;
+}
+.seccion-noticias h2:hover {
+  opacity: 0.7;
 }
 .seccion-noticias p {
   text-align: left;
@@ -140,6 +171,12 @@ a {
   font-size: 1rem;
   font-weight: 700;
 }
+.noticias-com p {
+  cursor: pointer;
+}
+.noticias-com p:hover {
+  opacity: 0.7;
+}
 .noticias-com img {
   width: 100px;
   height: 100px;
@@ -156,6 +193,10 @@ a {
   padding-left: 20px;
   font-size: 1rem;
   font-weight: 700;
+  cursor: pointer;
+}
+.seccion-popular p:hover {
+  opacity: 0.7;
 }
 .seccion-popular h3 {
   font-family: "Roboto", sans-serif;
@@ -185,6 +226,7 @@ a {
   top: 53%;
   left: 21%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .conciertos-discos {
@@ -195,6 +237,7 @@ a {
   background-position: 0;
   background-size: cover;
   border-radius: 15px;
+  cursor: pointer;
 }
 .conciertos-discos:hover {
   opacity: 0.9;
@@ -230,6 +273,7 @@ a {
   background-position: 0;
   background-size: cover;
   border-radius: 15px;
+  cursor: pointer;
 }
 .conciertos-discos2:hover {
   opacity: 0.9;
@@ -278,6 +322,10 @@ a {
   font-family: "Oswald", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
+  cursor: pointer;
+}
+.seccion-conciertosdisc p:hover {
+  opacity: 0.7;
 }
 .seccion-conciertosdisc img {
   width: 320px;
@@ -303,6 +351,10 @@ a {
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
+}
+.popular-conciertosdisc p:hover {
+  opacity: 0.7;
 }
 .popular-conciertosdisc img {
   width: 100px;
@@ -340,7 +392,7 @@ footer a:hover {
 }
 
 .fondo_footer {
-  background-color: #444444;
+  background-color: #182937;
   padding: 20px;
 }
 .fondo_footer h4 {
@@ -389,6 +441,7 @@ footer a:hover {
 }
 @media (max-width: 991px) {
   .navegacion a {
+    margin-top: 10px;
     padding-top: 0px;
     width: 140px;
   }

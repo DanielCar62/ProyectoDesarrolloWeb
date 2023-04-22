@@ -24,12 +24,26 @@ header{
 }
 
 img{
-    padding-top: 20px; 
+    object-fit: cover;
+    padding-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 a{
     text-decoration: none;
 }
+
+.fuente-pequeña{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: .7rem;
+    margin: 0;
+    opacity: .7;
+    cursor: pointer;
+}
+
+
 
 .navegacion{
     background-color: #182937;
@@ -87,9 +101,23 @@ a{
 .fuente{
     font-size: 1rem;
     font-weight: 300;
+    opacity: .7;
+    cursor: pointer;
 }
 
 .seccion-principal{
+    p{
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
+    }
+    h2{
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
+    }
     img{
         width: 590px;
 	    height: 300px;
@@ -117,6 +145,10 @@ a{
         font-family: 'Oswald', sans-serif;
         font-size: 1.4rem;
         font-weight: 700;
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
     }
     p{
         text-align: left;
@@ -147,6 +179,12 @@ a{
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     font-weight: 700;
+    p{
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
+    }
     img{
         width: 100px;
         height: 100px;
@@ -165,8 +203,11 @@ a{
         padding-left: 20px;
         font-size: 1rem;
         font-weight: 700;
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
     }
-
+    }
     h3{
         font-family: 'Roboto', sans-serif;
         margin-top: 90px;
@@ -195,6 +236,7 @@ a{
             top: 53%;
             left: 21%;
             transform: translate(-50%, -50%);
+            cursor: pointer;
         }
     }
 }
@@ -207,6 +249,7 @@ a{
     background-position: 0;
     background-size: cover;
     border-radius: 15px;
+    cursor: pointer;
     &:hover{
         opacity: .9;
     }
@@ -242,6 +285,7 @@ a{
     background-position: 0;
     background-size: cover;
     border-radius: 15px;
+    cursor: pointer;
     &:hover{
         opacity: .9;
     }
@@ -290,7 +334,11 @@ a{
         text-align: left;
         font-family: 'Oswald', sans-serif;
         font-size: 1.1rem;
-        font-weight: 700
+        font-weight: 700;
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
     }
     img{
 	    width: 320px;
@@ -318,7 +366,11 @@ a{
         text-align: left;
         font-family: 'Oswald', sans-serif;
         font-size: 1rem;
-        font-weight: 600
+        font-weight: 600;
+        cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
     }
     img{
         width: 100px;
@@ -359,7 +411,7 @@ footer{
 }
 
 .fondo_footer{
-    background-color: #444444;
+    background-color: #182937;
     padding: 20px;
     
     h4{
