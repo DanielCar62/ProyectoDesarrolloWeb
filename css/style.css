@@ -30,10 +30,6 @@ img {
   border-radius: 5px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .fuente-pequeña {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -233,7 +229,7 @@ a {
   width: 100%;
   height: 451px;
   margin-top: 30px;
-  background-image: url(../img/noticia8.jpg);
+  background-image: url(../img/lafemme1.jpg);
   background-position: 0;
   background-size: cover;
   border-radius: 15px;
@@ -244,7 +240,7 @@ a {
 }
 .conciertos-discos h4 {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: red;
   text-align: left;
   padding-left: 50px;
   padding-top: 170px;
@@ -269,7 +265,7 @@ a {
   width: 100%;
   height: 451px;
   margin-top: 30px;
-  background-image: url(../img/noticia8.jpg);
+  background-image: url(../img/Mejores-discos-2022.jpg);
   background-position: 0;
   background-size: cover;
   border-radius: 15px;
@@ -280,7 +276,7 @@ a {
 }
 .conciertos-discos2 h4 {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: red;
   text-align: left;
   padding-left: 50px;
   padding-top: 218px;
@@ -314,9 +310,6 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
-.seccion-conciertosdisc div {
-  padding-left: 50px;
-}
 .seccion-conciertosdisc p {
   text-align: left;
   font-family: "Oswald", sans-serif;
@@ -335,8 +328,8 @@ a {
   opacity: 0.9;
 }
 
-.popular-conciertosdisc div {
-  padding-left: 150px;
+.popular-conciertosdisc {
+  margin-left: 150px;
 }
 .popular-conciertosdisc h3 {
   font-family: "Roboto", sans-serif;
@@ -484,7 +477,7 @@ footer a:hover {
 }
 @media (max-width: 500px) {
   .principal-com div {
-    padding-left: 25px;
+    padding-left: 5px;
   }
   .principal-com img {
     width: 100px;
@@ -498,12 +491,12 @@ footer a:hover {
 }
 @media (max-width: 991px) {
   .noticias-com div {
-    padding-left: 25px;
+    padding-left: 5px;
   }
 }
 @media (max-width: 991px) {
   .seccion-popular div {
-    padding-left: 25px;
+    padding-left: 5px;
   }
   .seccion-popular h3 {
     margin-top: 50px;
@@ -563,7 +556,7 @@ footer a:hover {
 }
 @media (max-width: 800px) {
   .seccion-conciertosdisc div {
-    padding-left: 20px;
+    padding-left: 5px;
   }
   .seccion-conciertosdisc img {
     width: 100px;
@@ -571,12 +564,15 @@ footer a:hover {
   }
 }
 @media (max-width: 800px) {
+  .popular-conciertosdisc {
+    margin-left: 5px;
+  }
   .popular-conciertosdisc img {
     width: 100px;
     height: 100px;
   }
   .popular-conciertosdisc div {
-    padding-left: 40px;
+    padding-left: 5px;
   }
   .popular-conciertosdisc h3 {
     margin-top: 25px;
@@ -584,7 +580,7 @@ footer a:hover {
 }
 @media (max-width: 500px) {
   .popular-conciertosdisc div {
-    padding-left: 25px;
+    padding-left: 5px;
   }
 }
 @media (max-width: 500px) {

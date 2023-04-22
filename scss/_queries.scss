@@ -66,7 +66,7 @@
 @media (max-width: 500px){
     .principal-com{
         div{
-            padding-left: 25px;
+            padding-left: 5px;
         }
         img{
             width: 100px;
@@ -86,7 +86,7 @@
 @media (max-width: 991px){
     .noticias-com{
         div{
-            padding-left: 25px;
+            padding-left: 5px;
         }
     }
 }
@@ -94,7 +94,7 @@
 @media (max-width: 991px){
     .seccion-popular{
         div{
-            padding-left: 25px;
+            padding-left: 5px;
         }
         h3{
             margin-top: 50px;
@@ -167,7 +167,7 @@
 @media (max-width: 800px){
     .seccion-conciertosdisc{
         div{
-            padding-left: 20px;
+            padding-left: 5px;
         }
         img{
             width: 100px;
@@ -178,12 +178,13 @@
 
 @media (max-width: 800px){
     .popular-conciertosdisc{
+        margin-left: 5px;
         img{
             width: 100px;
 	        height: 100px;
         }
         div{
-            padding-left: 40px;
+            padding-left: 5px;
         }
         h3{
             margin-top: 25px;
@@ -194,7 +195,7 @@
 @media (max-width: 500px){
     .popular-conciertosdisc{
         div{
-            padding-left: 25px;
+            padding-left: 5px;
         }
     }
 }
